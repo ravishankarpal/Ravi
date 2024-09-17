@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8efd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    animation: fadeIn 2s ease;
+}
+
+.greeting {
+    color: #ff6f61;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.message {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff8873;
+}
+
+#surprise {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.surprise-message {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.surprise-gif {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.hidden-message {
+    display: none;
+    color: #ff6f61;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}

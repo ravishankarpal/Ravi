@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-content">
+            <h1 class="greeting">Happy Birthday, Suku!</h1>
+            <p class="message"> Wishing you a beautiful day filled with happiness and joy!</p>
+            <button class="btn" onclick="showSurprise()">Click for a Surprise 🎁</button>
+        </div>
+    </div>
+
+    <!-- <div id="surprise" class="hidden">
+        <p class="surprise-message">You light up my life in ways I never knew possible. Here’s to many more birthdays together. I love you! 💖</p>
+        <img src="https://i.giphy.com/media/l4EoXmgB82q6eTYRO/giphy.webp" alt="Surprise Gif" class="surprise-gif">
+    </div> -->
+
+    <div id="surprise" class="hidden">
+        <p class="surprise-message">You deserve all the happiness in the world. Wishing you a magical birthday!</p>
+        <!-- <img id="surpriseGif" src="https://i.giphy.com/media/l4EoXmgB82q6eTYRO/giphy.webp" alt="Surprise Gif" class="surprise-gif" onerror="showErrorMessage()"> -->
+
+        <iframe src="https://giphy.com/embed/z09jsfMAOvVg9MQubI" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rvappstudios-happy-birthday-happybirthday-queen-z09jsfMAOvVg9MQubI">via GIPHY</a></p>
+        
+        <p id="errorMessage" class="hidden-message">Oops! It looks like the GIF is unavailable, but here's something even better—you're the best part of my life! Happy Birthday! 🎉❤️</p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
